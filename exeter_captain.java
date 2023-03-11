@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class exeter_captain {
+class exeter_captain {
     public static void main(String[] args) {
         Scanner in=new Scanner(System.in);
         String name1=in.next();
