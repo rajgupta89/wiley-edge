@@ -1,9 +1,14 @@
 import java.util.*;
 class triplet {
     public static int pair(int n,int[] a){
-        for (int i = 0; i < n-2; i++) {
-            if(a[i]<a[i+1] && a[i+1]<a[i+2])
-             return 1;
+        for (int i = 0; i < n; i++) {
+            for (int j = i+1; j < n-1; j++) {
+                if(a[i]<a[j])
+                 break;
+            }
+            for (int j = 0; j < a.length; j++) {
+                
+            }
         }
         return 0;
     }
